@@ -1,0 +1,35 @@
+*{
+    border-sizing: border-box;
+}
+
+
+
+
+.left-panel{
+    background: url(images/twitter-logo.svg);
+    background-color: #71C9F8;
+/*    background:url("images/twitter-bg.svg"), #71C9F8;*/
+    background-position: left;
+    background-size: 155% 155%;
+}
+
+.button-clicked:hover{
+    background-color: #E8F5FE;
+    color: #1DA1F2;
+}
+
+.input-clicked:enabled{
+    outline: none;
+}
+
+.input-hover{
+    color: #777777;
+    border-bottom: 2px solid #888888;
+}
+
+.input-hover:focus-within{
+    color: #1DA1F2;
+    border-bottom-color: #1DA1F2;
+    outline: none;
+}
+
